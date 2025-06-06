@@ -1,6 +1,6 @@
 import { type CoreMessage, generateText } from "ai"
 import { google } from "@ai-sdk/google"
-import newsData from "@/data/news.json"
+import newsData from "@/news.json"
 import { getGeminiEmbedding, cosineSimilarity } from "@/lib/gemini-embedding"
 
 // In-memory cache for news embeddings
